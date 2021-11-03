@@ -15,8 +15,16 @@ L'utilisation des bibliothèques suivantes est attendue :
 Le thème et certains comportements UI/UX sont laissés libres, mais l'UI de l'application devra respecter au minimum les maquettes disponibles dans le dossier `mockups`\
 Tout ajout ou modification qui sera jugé utile à l'UI/UX sera bienvenu et devra être justifié.
 
+### Liste et aperçu dynamique
+
+\
 ![list](mockups/list.png)
 
+---
+
+### Détail
+
+\
 ![detail](mockups/detail.png)
 
 ## API
