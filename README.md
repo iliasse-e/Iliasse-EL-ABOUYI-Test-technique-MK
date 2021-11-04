@@ -12,7 +12,7 @@ L'utilisation des bibliothèques suivantes est attendue :
 
 ## Mockups
 
-Le thème et certains comportements UI/UX sont laissés libres, mais l'UI de l'application devra respecter au minimum les maquettes disponibles dans le dossier `mockups`\
+Le thème et certains comportements UI/UX sont laissés libres, mais l'UI de l'application devra respecter au minimum les wireframes disponibles dans le dossier `mockups`\
 Tout ajout ou modification qui sera jugé utile à l'UI/UX sera bienvenu et devra être justifié.
 
 ### Liste et aperçu dynamique
