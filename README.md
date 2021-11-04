@@ -1,6 +1,6 @@
 # Test frontend Mediakeys Tech
 
-L'objectif est de réaliser une application [ReactJS](https://reactjs.org/) en [Typescript](https://github.com/microsoft/TypeScript) d'édition de bannières de publicité simples.
+Ce test a pour but d'évaluer tes connaissances en JavaScript, [ReactJS](https://reactjs.org/) et [Typescript](https://github.com/microsoft/TypeScript). Tu devras réaliser une application permettant l'édition de bannières de publicité.
 
 Le projet est bootstrappé avec [Create React App](https://github.com/facebook/create-react-app).
 
@@ -29,9 +29,11 @@ Tout ajout ou modification qui sera jugé utile à l'UI/UX sera bienvenu et devr
 
 ## API
 
-Il est fourni une API simplifiée réalisée avec [JSON Server](https://github.com/typicode/json-server) disponible à l'adresse suivante : http://localhost:3001
+Nous te mettons à disposition une petite API permettant de récupérer/modifier/supprimer des publicités. Elle a été réalisée avec [JSON Server](https://github.com/typicode/json-server).
 
 Pour lancer l'API en dev : `yarn server`
+
+URL : [http://localhost:3001](http://localhost:3001)
 
 ### Endpoints
 
@@ -45,14 +47,18 @@ PUT    /creatives/:uuid
 DELETE /creatives/:uuid
 ```
 
-Pagination : `/creatives?_page=:page&_limit=:limit`\
-Tri : `/creatives?_sort=lastModified&_order=desc`
+Quelques exemples de paramètres fournis par l'API :
+
+- pagination : `/creatives?_page=:page&_limit=:limit`
+- tri : `/creatives?_sort=lastModified&_order=desc`
 
 ## Commandes
 
 Pour démarrer le projet : `yarn start`
 
-Démarre l'application en mode développement, disponible à l'adresse [http://localhost:3000](http://localhost:3000).
+Démarre l'application en mode développement.
+
+URL : [http://localhost:3000](http://localhost:3000)
 
 Pour lancer les tests : `yarn test`
 
@@ -63,4 +69,4 @@ Pour lancer les tests : `yarn test`
 - affichage responsive desktop/mobile, selon les mockups fournis
 - quelques tests jugés pertinents écrits avec Jest
 
-Il sera porté attention à l'architecture du projet, aux éventuelles bibliothèques supplémentaires utilisées et à la qualité du code produit.
+Une attention particulière sera portée sur l'architecture du projet, les éventuelles bibliothèques supplémentaires utilisées ainsi qu'à la qualité du code produit.
