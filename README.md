@@ -70,7 +70,7 @@ Pour lancer les tests : `yarn test`
 
 ## Livrable
 
-- application JS, disponible sur un repo git
+- application TypeScript, disponible sur un repo git
 - besoins fonctionnels : lister, éditer et supprimer des bannières
 - quelques tests jugés pertinents
 
