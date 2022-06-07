@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.loader {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  left: calc(50% - 35px) ;
+  opacity: 0.8;
+
+  animation: spinner infinite ease-out 1500ms;
+  z-index: 10;
+}
+
+.loader__logo {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  background-color: #00bc77;
+}
+
+@keyframes spinner {
+  0% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  50% {
+      transform: scale(1.5);
+      opacity: .4;
+  }
+  100% {
+      transform: scale(1);
+      opacity: .7;
+  }
+}
